@@ -1,6 +1,8 @@
-Meta:
-  name: Adrian Egea
+Adrianensis:
+  name: Adrianensis
+  bio: "🎮💻📚 Programo Game Engines como hobby, en este blog hablo sobre gamedev, graphics programming, c++ y consejos para entrar a la industria. 🌱🐇🌳"
+  location: Murcia, España
   avatar: assets/images/Me.jpg
   twitter: adrianensisdev
   github: adrianensis
-  bio: "C++ Game Programmer"
+  linkedin: adrian-egea-comenge

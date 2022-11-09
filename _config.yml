@@ -15,12 +15,12 @@
 minimal_mistakes_skin    : "neon2" # "air", "aqua", "contrast", "default", "dirt", "neon", "dark", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Adrianensis Dev"
+locale                   : "es-ES"
+title                    : "🎮💻📚 Adrianensis Dev"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "adrianensis"
-description              : "Programming and game development blog"
+description              : "GameDev en español"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -101,10 +101,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Adrian Egea"
+  name             : "Adrianensis Dev"
   avatar           : "/assets/images/Me.jpg"
-  bio              : "C++ Game Programmer"
-  location         : # "Somewhere"
+  bio              : "🎮💻📚 Programo Game Engines como hobby, en este blog hablo sobre gamedev, graphics programming, c++ y consejos para entrar a la industria. 🌱🐇🌳"
+  location         : Murcia, España # "Somewhere"
   email            :
   links:
     - label: "Email"
@@ -125,6 +125,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/adrian-egea-comenge/"
 
 # Site Footer
 footer:
@@ -147,6 +150,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/adrian-egea-comenge/"
 
 
 # Reading Files
