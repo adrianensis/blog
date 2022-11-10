@@ -5,7 +5,7 @@
 /* Colors */
 $background-color: #121c22 !default;
 $text-color: #fff6fb !default;
-$primary-color: #2bb24c !default;
+$primary-color: #2bb24d !default;
 $border-color: mix(#fff, $background-color, 20%) !default;
 $code-background-color: mix(#000, $background-color, 15%) !default;
 $code-background-color-dark: mix(#000, $background-color, 20%) !default;
@@ -19,8 +19,8 @@ $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 
 /* notices */
-$notice-background-mix: 90% !default;
-$code-notice-background-mix: 95% !default;
+$notice-background-mix: 60% !default;
+$code-notice-background-mix: 60% !default;
 
 /* neon syntax highlighting (base16) */
 $base00: #25393f !default;
