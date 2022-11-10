@@ -245,6 +245,8 @@
 </div>
 </div>
 
+<hr/>
+
 <aside>
 <h5><strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].categories_label | default: "Categories:" }} </strong></h5>
 {% include group-by-array collection=site.posts field="categories" %}
@@ -255,6 +257,9 @@
         </li>
     {% endfor %}
 </ul>
+
+<hr/>
+
 <h5><strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].tags_label | default: "Tags:" }} </strong></h5>
 {% include group-by-array collection=site.posts field="tags" %}
 <ul class="taxonomy__index-list">

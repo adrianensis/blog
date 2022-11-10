@@ -214,15 +214,21 @@
     font-size: $type-size-5;
   }
 
+//   .archive__item-excerpt {
+//     display: none;
+
+//     @include breakpoint($medium) {
+//       display: block;
+//       font-size: $type-size-6;
+//     }
+//   }
+
+  // custom
   .archive__item-excerpt {
-    display: none;
-
-    @include breakpoint($medium) {
-      display: block;
-      font-size: $type-size-6;
-    }
+    display: block;
+    font-size: $type-size-6;
   }
-
+  
   .archive__item-teaser {
     @include breakpoint($small) {
       max-height: 120px;

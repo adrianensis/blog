@@ -1,7 +1,6 @@
 ---
 layout: single
-title: Conceptos que considero importante conocer antes de saltar a la Programación de Videojuegos
-permalink: conceptos
+title: Conceptos básicos para aprender Programación de Videojuegos
 header:
   teaser: /assets/images/thumbnails/conceptos.jpg
 categories:
@@ -11,22 +10,24 @@ tags:
   - Game Engine
   - Estudios
   - Matemáticas
-published: false
+published: true
 ---
 
-Aclarar que este hilo va destinado a personas que quieren introducirse de forma autodidacta <!--more-->  a la programación de videojuegos desde una base de programación ya aprendida 🐸🤙
-
+Este post va destinado a personas que quieren introducirse de forma autodidacta <!--more--> a la programación de videojuegos desde una base de programación ya aprendida 🐸🤙
 Para las personas que ya cursen una formación reglada, todo esto ya lo sabrán (asumo), puede ser una lectura interesante anyways 📖✌️
+{: .notice--info}
 
-🔢 Matemáticas
+## 🔢 Matemáticas
 
-En principio para el puesto estándar, Gameplay Programmer, con la Trigonometría y el Álgebra Lineal del instituto vamos bien para empezar. El 90% del tiempo trabajaremos con ángulos, vectores y matrices.
+En principio para el puesto estándar, Gameplay Programmer, con la Trigonometría y el Álgebra Lineal de instituto vamos bien para empezar. El 90% del tiempo trabajaremos con ángulos, vectores y matrices.
 
-Además hay libros especializados como este (o de título similar, hay 2-3 que se llaman casi igual y nos sirven casi para lo mismo, ya hablaremos de libros en otro hilo)
+Además hay libros especializados como este (o de título similar, hay 2-3 que se llaman casi igual y nos sirven casi para lo mismo, ya hablaremos de libros en otro post)
 
-Y también obviamente en YT tenéis cursos de sobra, como este Álgebra Lineal del MIT 🎓 https://youtube.com/watch?v=ZK3O402wf1c
+Y también obviamente en YT tenéis cursos de sobra, como este [Álgebra Lineal del MIT 🎓](https://youtube.com/watch?v=ZK3O402wf1c)
 
-🧮 Estructuras de datos
+{% include video id="ZK3O402wf1c" provider="youtube" %}
+
+## 🧮 Estructuras de datos
 
 Es importante decidir en qué estructura almacenamos nuestros datos. Lo es para aplicaciones normales, mucho más para apps en tiempo real como los videojuegos, donde la carga de trabajo en cada frame define a cuántos FPS va a poder ir tu juego 🔥
 
@@ -38,11 +39,11 @@ Una mal elegida estructura en un punto crítico de tu juego, puede llevarte deba
 
 Esta elección puede ser uno de los factores que te limite de tener 1000 entidades a solo 50 🙆
 
-📦 OOP (object oriented programming)
+## 📦 OOP (object oriented programming)
 
 Muchos lenguajes modernos (y antiguos también) se basan en este paradigma y es el paradigma en el que se trabaja en la industria, C++/C#/Java principalmente, son muy usados en la industria y todos son OOP.
 
-🌳 Composición vs HerenciaI
+## 🌳 Composición vs Herencia
 
 Probablemente en un videojuego es un tipo de aplicación donde esto se ve más claro.
 
