@@ -244,29 +244,3 @@
     </ul>
 </div>
 </div>
-
-<hr/>
-
-<aside>
-<h5><strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].categories_label | default: "Categories:" }} </strong></h5>
-{% include group-by-array collection=site.posts field="categories" %}
-<ul class="taxonomy__index-list">
-    {% for category in group_names %}
-        <li>
-            <a href="{{site.url}}/categories/#{{ category | slugify }}"> <strong>{{ category }}</strong> </a>
-        </li>
-    {% endfor %}
-</ul>
-
-<hr/>
-
-<h5><strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].tags_label | default: "Tags:" }} </strong></h5>
-{% include group-by-array collection=site.posts field="tags" %}
-<ul class="taxonomy__index-list">
-    {% for tag in group_names %}
-        <li>
-            <a href="{{site.url}}/tags/#{{ tag | slugify }}"> <strong>{{ tag }}</strong> </a>
-        </li>
-    {% endfor %}
-</ul>
-</aside>
