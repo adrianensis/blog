@@ -29,7 +29,7 @@
 <ul class="taxonomy__index">
     {% for category in group_names %}
         <li>
-            <a href="{{site.url}}/categories/#{{ category | slugify }}"> <strong>{{ category }}</strong> </a>
+            <a href="{{site.url}}{{site.baseurl}}/categories/#{{ category | slugify }}"> <strong>{{ category }}</strong> </a>
         </li>
     {% endfor %}
 </ul>
@@ -39,7 +39,7 @@
 <ul class="taxonomy__index">
     {% for tag in group_names %}
         <li>
-            <a href="{{site.url}}/tags/#{{ tag | slugify }}"> <strong>{{ tag }}</strong> </a>
+            <a href="{{site.url}}{{site.baseurl}}/tags/#{{ tag | slugify }}"> <strong>{{ tag }}</strong> </a>
         </li>
     {% endfor %}
 </ul>
