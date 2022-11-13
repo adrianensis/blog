@@ -4,6 +4,7 @@ title: 10 años programando un Game Engine, ¿he tirado mi tiempo a la basura?
 header:
   teaser: /assets/images/thumbnails/tiempo-basura.jpg
 categories:
+  - Artículos
   - Experiencias
 tags:
   - Autodidacta
