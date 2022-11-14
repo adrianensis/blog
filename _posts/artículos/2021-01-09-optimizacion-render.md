@@ -6,7 +6,7 @@ header:
 categories:
   - Artículos
 tags:
-  - OpenLG
+  - OpenGL
   - Render
   - Optimizaciones
   - Game Engine
