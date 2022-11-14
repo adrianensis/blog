@@ -22,55 +22,29 @@ En mi vídeo introductorio de OpenGL hablo sobre todas estas optimizaciones!
 
 ## 📦 Vertex Buffer Object
 
-Esto no es exactamente una optimización, pero es la "nueva" forma de enviar datos de vértices a la GPU. Antes (fixed pipeline) había que invocar una función de OpenGL para cada dato de cada vértice (glVertex, glColor...).
-
-Ahora todos esos datos se combinan en un solo buffer (array) y se envía a la GPU de una sola vez.
-
-La mejora reside en que esto almacena los datos en la memoria de la GPU en lugar de la memoria del sistema.
-
-Podemos tener múltiples VBOs, para las posiciones de los vértices, normales, colores, coordenadas de texturas, etc.
-
-De modo que cada modelo de nuestro juego tendrá asociado una serie de VBOs.
-
-Cuando queremos dibujar ese modelo, tenemos que activar y configurar sus VBOs.
+Esto no es exactamente una optimización, pero es la "*nueva*" forma de enviar datos de vértices a la GPU. Antes (fixed pipeline) había que invocar una función de OpenGL para cada dato de cada vértice (glVertex, glColor...). Ahora todos esos datos se combinan en un solo buffer (array) y se envía a la GPU de una sola vez. La mejora reside en que esto almacena los datos en la memoria de la GPU en lugar de la memoria del sistema. Podemos tener múltiples VBOs, para las posiciones de los vértices, normales, colores, coordenadas de texturas, etc. De modo que cada modelo de nuestro juego tendrá asociado una serie de VBOs. Cuando queremos dibujar ese modelo, tenemos que activar y configurar sus VBOs.
 
 ## 🗄️ Vertex Array Object
 
-Un VAO es un contenedor de VBOs, también almacena información sobre el formato de los VBOs, el tamaño de sus elementos, offsets, etc.
-
-Ahora ya podemos asociar un VAO a un modelos, y ese VAO contiene toda la información necesaria.
-
-Así que ya no necesitamos activar y configurar los VBOs cada vez que queramos dibujar un modelo, solo activar su VAO.
-
-Esto también reduce la comunicación con el Driver de la gráfica.
+Un VAO es un contenedor de VBOs, también almacena información sobre el formato de los VBOs, el tamaño de sus elementos, offsets, etc. Ahora ya podemos asociar un VAO a un modelos, y ese VAO contiene toda la información necesaria. Así que ya no necesitamos activar y configurar los VBOs cada vez que queramos dibujar un modelo, solo activar su VAO. Esto también reduce la comunicación con el Driver de la gráfica.
 
 ## 🗂️ Vertex indexing
 
-Cuando dibujamos un cuadrado, realmente estamos dibujando 2 triángulos.
-
-Pero si dibujamos 2 triángulos, hay 2 vértices que estamos dibujando doble no?
-
-Esto se arregla indexando los vértices.
+Cuando dibujamos un cuadrado, realmente estamos dibujando 2 triángulos. Pero si dibujamos 2 triángulos, hay 2 vértices que estamos dibujando doble, ¿no? Esto se arregla indexando los vértices.
 
 ![](http://www.opengl-tutorial.org/assets/images/tuto-9-vbo-indexing/indexing1.png)
 
 (Imagen: [http://www.opengl-tutorial.org/intermediate-tutorials/tutorial-9-vbo-indexing/](http://www.opengl-tutorial.org/intermediate-tutorials/tutorial-9-vbo-indexing/))
 
-Se dibuja el cuadrado siguiendo el orden de los índices, en lugar de  leer el buffer de vértices directamente.
-
-Esta optimización se nota más en modelos con muchos vértices, ya que en memoria, un índice (int o short) ocupa mucho menos que un vértice (3 floats).
+Se dibuja el cuadrado siguiendo el orden de los índices, en lugar de  leer el buffer de vértices directamente. Esta optimización se nota más en modelos con muchos vértices, ya que en memoria, un índice (int o short) ocupa mucho menos que un vértice (3 floats).
 
 ## 🖼️ Texture Batching
 
-Cuando dibujamos muchos sprites en pantalla, el engine tiene que activar una textura diferente para cada nuevo sprite.
-
-El problema es que activar una textura por cada nuevo draw call es demasiada comunicación con la GPU.
-
-Esta optimización consiste en dibujar juntos todos los sprites que tengan la misma textura, para solo activar 1 vez cada textura. Lo mínimo indispensable.
+Cuando dibujamos muchos sprites en pantalla, el engine tiene que activar una textura diferente para cada nuevo sprite. El problema es que activar una textura por cada nuevo draw call es demasiada comunicación con la GPU. Esta optimización consiste en renderizar juntos todos los sprites que tengan la misma textura, para solo activar 1 vez cada textura. Lo mínimo indispensable.
 
 ## 🗺️ Texture Atlas
 
-Esta optimización consiste en agrupar muchas texturas en una sola gran textura (el texture atlas), esto nos ayuda a reducir el número de texturas que tenemos que activar ya que en el caso ideal, solo tendremos qur activar 1 sola textura.
+Esta optimización consiste en agrupar muchas texturas en una sola gran textura (el texture atlas), esto nos ayuda a reducir el número de texturas que tenemos que activar ya que en el caso ideal, solo tendremos que activar 1 sola textura.
 
 ![](https://i.stack.imgur.com/S9OtX.png)
 
