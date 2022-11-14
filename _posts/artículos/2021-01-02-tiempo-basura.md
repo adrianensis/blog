@@ -5,7 +5,6 @@ header:
   teaser: /assets/images/thumbnails/tiempo-basura.jpg
 categories:
   - Artículos
-  - Experiencias
 tags:
   - Autodidacta
   - Game Engine
