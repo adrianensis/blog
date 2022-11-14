@@ -81,6 +81,6 @@ Después de 8 años siendo autodidacta, os quiero contar de qué va esta vaina p
 
 🔹 Ser autodidacta no es solo para casos específicos, es para todo el mundo, a veces necesario a veces simplemente beneficioso, da igual si ya estudiaste una formación reglada, trabajas, enseñas, eres junior o senior.
 
-📔📚 Aquí os dejo un [post]({% post_url articulos/2021-01-09-libros %}) que hice de recomendaciones de libros de GameDev que enlaza bastante bien con el tema autodidacta.
+📔📚 Aquí os dejo un [post]({{site.url}}{{site.baseurl}}/libros) que hice de recomendaciones de libros de GameDev que enlaza bastante bien con el tema autodidacta.
 
 Espero que este post os haya ayudado a entender lo que implica la vía autodidacta, espero también que os haya motivado a incorporar algo de autoaprendizaje en vuestras vidas 😊 Estudiar cuesta, es innegable, pero es de lejos la mejor inversión que (nos) podemos hacer 🤘⚡
