@@ -19,7 +19,7 @@ Parece C++ pero es mi propio lenguage (no tiene nombre aún) que transpila a C++
 
 ## ¿Por qué?
 
-Este proyecto nación por la necesidad de escribir código C++, pero más rápido y limpio, llevo 10 años escribiendo C++ y cada vez hay más cosas que me chirrían del lenguaje, la sintaxis creciendo en varios frentes, volviéndose más enrevesada, como varios lenguajes en uno, la verbosidad cada vez mayor...
+Este proyecto nació por la necesidad de escribir código C++, pero más rápido y limpio, llevo 10 años escribiendo C++ y cada vez hay más cosas que me chirrían del lenguaje, la sintaxis creciendo en varios frentes, volviéndose más enrevesada, como varios lenguajes en uno, la verbosidad cada vez mayor...
 
 No quiero dejar de escribir C++, pero necesito una capa de abstracción sobre el lenguaje si quiero continuar mis otros proyectos de C++ a un ritmo aceptable. C++ es un lenguaje muy lento de escribir y últimamente me lastra bastante. Tanto es así que un transpilador se ha convertido hasta en una opción bastante interesante. También es un tema que lleva años interesándome pero nunca tuve tiempo para ponerme en serio con los compiladores desde la universidad.
 
