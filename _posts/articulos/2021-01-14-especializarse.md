@@ -47,9 +47,9 @@ Como habréis comprobado estoy hablando de generalistas que NO se salen de un de
 
 Tal vez mucha gente tenga en mente otro concepto de Generalista.
 
-Esa persona que hace de todo, pero de verdad, hace el arte, programa, música, marketing, game design, etc.
+Esa persona que hace de todo, pero de verdad, hace el arte, programa, música, marketing, game design, etc. Suele darse mucho en el ámbito indie y en el ámbito de personas que tienen el gamedev como hobby. Me explico. Hablemos de trabajo.
 
-Suele darse mucho en el ámbito indie y en el ámbito de personas que tienen el gamedev como hobby. Me explico. Hablemos de trabajo.
+Lo normal es que, como persona apasionada del gamedev, si te especializas en algo, igualmente acabes picoteando de otras áreas, aprendiendo y nutriéndote, incluyo alcanzando un nivel bastante aceptable en otras áreas que no son tu especialiazción. Al final no es blanco o negro, todo aporta, pero como decía, este post trata sobre el mínimo indispensable para ser contratados.
 
 ## 💻✉️ ¿A quién contratan las empresas AAA?
 
@@ -79,7 +79,7 @@ Si tu objetivo es ser indie, probablemente necesites conocer más de un departam
 
 ## 💼📊 Nivel de empleabilidad: Especialistas vs Generalistas
 
-Lo que se experimenta en la industria es que una persona especialista o generalista de 1 solo campo de conocimiento, tiene mayor empleabilidad que alguien que se ha formado en muchos campos distintos.
+Lo que se experimenta en la industria es que una persona especialista o generalista de 1 solo campo de conocimiento a mayor profundidad, tiene mayor empleabilidad que alguien que se ha formado en muchos campos distintos pero a menor profundidad.
 
 ## 🏫📚 Estudios
 
@@ -91,9 +91,7 @@ El problema de la educación especialista es que los conocimientos a los que nec
 
 También hay quien no ha decidido aún sobre qué disciplina seguir, de modo que un curso generalista puede no ser tan mala idea, ya que podrás experimentar qué ámbitos del gamedev te gustan más, aunque estos experimentos no suelen ser baratos, cuidado!
 
-Puede que estés considerando "ser indie" y que por tanto esta es también una buena opción para ti, pero lamento comunicarte que no funciona así. "Ser indie" no es algo que puedas elegir tan a la ligera, normalmente suele ser gente que ya tiene un rodaje en la industria y+
-
-decide tirar por su cuenta, con conocimiento acumulado, dinero y años de experiencia. Puede que haya indies sin esas características, pero lo que es seguro es que han arriesgado mucho para estar ahí. Es un camino que no recomiendo a alguien recién llegado al gamedev.
+Puede que estés considerando "ser indie" y que por tanto esta es también una buena opción para ti, pero lamento comunicarte que no funciona así. "Ser indie" no es algo que puedas elegir tan a la ligera, normalmente suele ser gente que ya tiene un rodaje en la industria y decide tirar por su cuenta, con conocimiento acumulado, dinero y años de experiencia. Puede que haya indies sin esas características, pero lo que es seguro es que han arriesgado mucho para estar ahí. Es un camino que no recomiendo a alguien recién llegado al gamedev.
 
 Puede que "ser indie" sea un concepto algo difuso, lo dejaremos en "quiero hacer mis propios juegos, lanzarlos y vivir de ello" :)
 {: .notice--info}

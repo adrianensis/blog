@@ -103,4 +103,4 @@ Como resulta que ahora hay cientos de empresas que usan Unreal Engine y buscan g
 
 En cualquer caso considero este tipo de posts algo bastante importante, porque yo en su momento buscaba muchísimo los típicos relatos de "cómo entraste a la industria gamedev" para saber si mi camino era bueno, si me estaba equivocando, si me podía insipirar en otras personas. Creo que aportan una experiencia transversal que puede ayudar mucho a otras personas en la misma situación en la que todo el mundo hemos estado.
 
-El post se me ha ido totalmente de las manos 📜 perdón y gracias por leer si has llegado hasta aquí 🙂👋💚
+Gracias por leer si has llegado hasta aquí 🙂👋💚
