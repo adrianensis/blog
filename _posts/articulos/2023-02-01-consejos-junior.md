@@ -145,7 +145,7 @@ Ahora toca que alguien lea nuestro CV, os voy a dejar una lista de webs para bus
 ℹ️ Un consejo es que podéis aplicar a roles que tengan cierta demanda si tenéis la formación. Todo el mundo quiere ser Gameplay Programmer, pero hay mucha demanda de: Tools programmer, DevOps, Build Engineer, Tech Art..
 {: .notice--info}
 
-Merece la pena subir nuestro CV a todas las webs que he puesto en esta lista, lo que ocurre ahí es que tu subes tu CV y queda en una base de datos, lo que pasa es que luego esas bases de datos **corren como la pólvora entre empresas de recruiting** que se comparten o venden esos datos entre ellas, y tu CV alcanza muchísimas posibilidades de ser visto 👀💼 El problema es que a veces tu teléfono no para de sonar 📱🔥
+Merece la pena subir nuestro CV a todas las webs que he puesto en la siguiente sección, lo que ocurre ahí es que tu subes tu CV y queda en una base de datos, lo que pasa es que luego esas bases de datos **corren como la pólvora entre empresas de recruiting** que se comparten o venden esos datos entre ellas, y tu CV alcanza muchísimas posibilidades de ser visto 👀💼 El problema es que a veces tu teléfono no para de sonar 📱🔥
 
 Todo esto es **gratis** para tí obviamente.
 
