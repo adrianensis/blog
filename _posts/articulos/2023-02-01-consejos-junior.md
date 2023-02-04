@@ -172,6 +172,12 @@ Aunque queráis trabajar solo en vuestro país/ciudad os recomiendo encarecidame
 ℹ️ ¡Yo encontré mi primer trabajo en Barcelona a través de recruiters de UK! 🤣 Y desde entonces, todos mis trabajos los he obtenido sido así.
 {: .notice--success}
 
+- Específicas de Videojuegos
+  - [https://hitmarker.net/jobs](https://hitmarker.net/jobs){:target="_blank"}
+  - [https://remotegamejobs.com/](https://remotegamejobs.com/){:target="_blank"}
+  - [https://www.workwithindies.com/](https://www.workwithindies.com/){:target="_blank"}
+  - [https://www.gamesjobsdirect.com/](https://www.gamesjobsdirect.com/){:target="_blank"}
+
 - UK
   - [https://technojobs.co.uk](https://technojobs.co.uk){:target="_blank"}
   - [https://cwjobs.co.uk](https://cwjobs.co.uk){:target="_blank"}
