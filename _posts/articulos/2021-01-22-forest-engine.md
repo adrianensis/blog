@@ -7,8 +7,6 @@ categories:
   - Artículos
 tags:
   - Autodidacta
-  - Transpiladores
-  - Compiladores
   - C++
   - Game Engine
   - OpenGL
