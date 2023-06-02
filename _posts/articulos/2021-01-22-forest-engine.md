@@ -44,7 +44,7 @@ Aquí en mi blog podéis encontrar todos los devlogs de mi Game Engine, desde qu
 - Stencil
 - Módulo de matemátias
 - Scripting simple
-- Carga de modelos 3D con ASSIMP
+- Carga de modelos 3D GLTF
 
 ## Bugs y TODOs
 
