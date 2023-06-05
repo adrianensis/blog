@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Especializarse o Saber un poco de todo?
+title: ¿Especializarse o Saber un poco de todo?
 header:
   teaser: /assets/images/thumbnails/especializarse.jpg
 categories:
