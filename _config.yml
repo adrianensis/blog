@@ -221,7 +221,7 @@ sass:
 
 # Outputting
 permalink: /:title/ #/:categories/:title/
-paginate: 12 # amount of posts to show
+paginate: 20 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -281,7 +281,6 @@ compress_html:
   ignore:
     envs: development
 
-
 # Defaults
 defaults:
   # _posts
@@ -290,7 +289,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: false
       comments: # true
       share: true
